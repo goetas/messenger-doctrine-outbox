@@ -45,7 +45,7 @@ services:
     goetas.messenger_doctrine_outbox_middleware:
         class: Goetas\MessengerDoctrineOutbox\OutboxTransportFactory
         arguments:
-            $registry: '@doctrine'
+            - '@doctrine'
         tags:
             - { name: messenger.transport_factory }
 
