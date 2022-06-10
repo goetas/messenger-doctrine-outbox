@@ -9,7 +9,7 @@ pattern for the [symfony/messenger](https://symfony.com/doc/current/messenger.ht
 The recommended installation is via  [Composer](https://getcomposer.org/).
 
 ```bash
-composer require goetas/messenger-doctrine-outbox
+composer require goetas/messenger-doctrine-outbox:@dev
 ```
 
 ## Configuration
