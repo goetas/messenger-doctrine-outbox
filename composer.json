@@ -1,0 +1,23 @@
+{
+    "name": "goetas/messenger-doctrine-outbox",
+    "description": "Transactional outbox implementation for Symfony messenger (https://microservices.io/patterns/data/transactional-outbox.html)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Goetas\\MessengerDoctrineOutbox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Asmir Mustafic",
+            "email": "goetas@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/doctrine-messenger": "^5.0|^6.0"
+    },
+    "require-dev": {
+        
+    }
+}
